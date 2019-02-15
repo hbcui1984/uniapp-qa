@@ -574,3 +574,10 @@
     - "(sass|scss|node-sass-china).*(无法安装|安装失败|安装不成功)"
     - "(无法安装|安装失败|安装不成功).*(sass|scss|node-sass-china)"
   answer: "sass/scss插件安装失的解决方案：http://ask.dcloud.net.cn/article/35468"
+-
+  questions:
+    - 请问uniapp怎么禁止ios的弹簧效果
+    - uniapp怎么禁止ios的回弹效果
+  keys:
+    - "ios.*(关闭|禁止).*(弹簧|关闭)"
+  answer: "参考 https://uniapp.dcloud.io/collocation/pages?id=app-plus  设置 bounce 为none"
